@@ -8,7 +8,7 @@
 
   <modelVersion>4.0.0</modelVersion>
   <artifactId>testing</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
 
   <repositories>
     <!-- Metalcon repository to resolve dependencies from -->
@@ -20,7 +20,7 @@
 
   <properties>
     <!-- version of Metalcon domain -->
-    <metalcon.muid.version>0.2.0-SNAPSHOT</metalcon.muid.version>
+    <metalcon.muid.version>0.3.1</metalcon.muid.version>
   </properties>
 
   <dependencies>

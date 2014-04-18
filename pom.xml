@@ -3,25 +3,20 @@
   <parent>
     <groupId>de.metalcon</groupId>
     <artifactId>pom</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.19</version>
   </parent>
 
   <modelVersion>4.0.0</modelVersion>
   <artifactId>testing</artifactId>
-  <version>0.0.2</version>
+  <version>0.0.3</version>
 
   <repositories>
     <!-- Metalcon repository to resolve dependencies from -->
     <repository>
       <id>metalcon-depend</id>
-      <url>http://metalcon2.physik.uni-mainz.de:8080/mvn/</url>
+      <url>http://develop.metalcon.de:8080/mvn/</url>
     </repository>
   </repositories>
-
-  <properties>
-    <!-- version of Metalcon domain -->
-    <metalcon.muid.version>0.3.1</metalcon.muid.version>
-  </properties>
 
   <dependencies>
     <dependency>
